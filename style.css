@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html { 
+    background-color: #ffff80; 
+}
+
+header{
+    text-align: center;
+    margin: 50px;
+	padding: 0; 
+}
+
+h1#head { 
+    font-size: 50px;
+    font-family: Cursive;
+    color: cornflowerblue;
+}
+
+h1#result {
+    font-size: 30px;
+    font-family: Verdana;
+    color: chocolate;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+canvas {
+    border: 3px solid dodgerblue; 
+    background-color: lightyellow;
+    text-align: center;
+	/* Added to join the canvases after we created the red strike throughts */
+	display: block;
+	float: left;
+}
+
+#game {
+    position: relative;
+    width: 650px; 
+    height: 322px;
+    margin: 0 auto;
+}
+
+#tic {
+    position: relative;
+    margin: 0 auto;
+    width: 318px;
+    height: 318px;
+    display: inline-block;
+    float: left;
+	border: 3px solid dodgerblue; 
+}
+
+#rules {
+    position: relative;
+    width: 318px;
+    height: 318px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+}
+
+p {
+    font-size: 26px;
+    margin: 15px;
+    color: brown;
+}
+
+h2 {
+    font-size: 35px;
+    color: brown;
+}
+
+button {
+    margin-top: 25px; 
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: limegreen;
+    color: gold;
+    border: 1px solid black; 
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
+	border-radius: 3px;
+}
+
+canvas:hover {
+    background-color: lightblue;
+}
+
+button:hover {
+    background: green;
+}
